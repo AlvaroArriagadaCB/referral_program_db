@@ -1,0 +1,230 @@
+{
+  "recommenders": [
+    {
+      "uuid": "5467ea4d-ccee-4f63-8131-2b2bde500c3b",
+      "code": "EYwPyb",
+      "email": "killtrosbluestest05@gmail.com",
+      "id": 1,
+      "createdAt": "2022-01-12T20:22:41.914Z",
+      "updatedAt": "2022-01-12T20:22:41.914Z"
+    },
+    {
+      "uuid": "4b18b86e-0806-4210-a7fa-ef64e75552c2",
+      "code": "TYqjkO",
+      "email": "robinho231@gmail.com",
+      "id": 2,
+      "createdAt": "2022-01-12T20:22:41.914Z",
+      "updatedAt": "2022-01-12T20:22:41.914Z"
+    }
+  ],
+  "referreds": [
+    {
+      "id": 1,
+      "email": "referrals4@test.cl",
+      "recommenderCode": "EYwPyb",
+      "uuid": "7467ea4d-ccee-4f63-8131-2b2bde500c39",
+      "profileComplete": false,
+      "confirmedTransfer": false,
+      "createdAt": "2022-05-12T20:22:41.914Z",
+      "updatedAt": "2022-05-12T20:22:41.914Z",
+      "recommender": [
+        {
+          "uuid": "5467ea4d-ccee-4f63-8131-2b2bde500c3b",
+          "code": "EYwPyb",
+          "email": "killtrosbluestest05@gmail.com",
+          "id": 1,
+          "createdAt": "2022-01-12T20:22:41.914Z",
+          "updatedAt": "2022-01-12T20:22:41.914Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "referral1@test.cl",
+      "uuid": "580f646f-0d23-4aa7-8c6a-b1fc0a7e60e2",
+      "recommenderCode": "EYwPyb",
+      "profileComplete": false,
+      "confirmedTransfer": false,
+      "createdAt": "2022-05-12T20:22:41.914Z",
+      "updatedAt": "2022-05-12T20:22:41.914Z",
+      "recommender": [
+        {
+          "uuid": "5467ea4d-ccee-4f63-8131-2b2bde500c3b",
+          "code": "EYwPyb",
+          "email": "killtrosbluestest05@gmail.com",
+          "id": 1,
+          "createdAt": "2022-01-12T20:22:41.914Z",
+          "updatedAt": "2022-01-12T20:22:41.914Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "email": "referido9123@test.cl",
+      "recommenderCode": "EYwPyb",
+      "uuid": "df18b700-2608-45cc-a294-9fd9352df37d",
+      "profileComplete": true,
+      "confirmedTransfer": "1",
+      "createdAt": "2022-05-12T20:22:41.914Z",
+      "updatedAt": "2022-05-12T20:22:41.914Z",
+      "recommender": [
+        {
+          "uuid": "5467ea4d-ccee-4f63-8131-2b2bde500c3b",
+          "code": "EYwPyb",
+          "email": "killtrosbluestest05@gmail.com",
+          "id": 1,
+          "createdAt": "2022-01-12T20:22:41.914Z",
+          "updatedAt": "2022-01-12T20:22:41.914Z"
+        }
+      ]
+    }
+  ],
+  "gift-registries": [
+    {
+      "id": 1,
+      "amount": "20000",
+      "origin": "referred",
+      "name": "first-transfer-referred",
+      "uuidReferred": "df18b700-2608-45cc-a294-9fd9352df37d",
+      "status": "available",
+      "transactionCode": null,
+      "type": null,
+      "institution": null,
+      "createdAt": "2022-18-12T20:25:31.029Z",
+      "updatedAt": "2022-18-12T20:25:31.029Z",
+      "referred": [
+        {
+          "id": 3,
+          "email": "referido9123@test.cl",
+          "recommenderCode": "EYwPyb",
+          "uuid": "df18b700-2608-45cc-a294-9fd9352df37d",
+          "profileComplete": true,
+          "confirmedTransfer": true,
+          "createdAt": "2022-05-12T20:22:41.914Z",
+          "updatedAt": "2022-05-12T20:22:41.914Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "amount": "20000",
+      "origin": "recommender",
+      "name": "first-transfer-referred",
+      "uuidRecommender": "5467ea4d-ccee-4f63-8131-2b2bde500c3b",
+      "status": "available",
+      "transactionCode": null,
+      "institution": null,
+      "type": null,
+      "createdAt": "2022-18-12T20:25:31.029Z",
+      "updatedAt": "2022-18-12T20:25:31.029Z",
+      "referred": [
+        {
+          "id": 3,
+          "email": "referido9123@test.cl",
+          "recommenderCode": "EYwPyb",
+          "uuid": "df18b700-2608-45cc-a294-9fd9352df37d",
+          "profileComplete": true,
+          "confirmedTransfer": true,
+          "createdAt": "2022-05-12T20:22:41.914Z",
+          "updatedAt": "2022-05-12T20:22:41.914Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "amount": "20000",
+      "origin": "recommender",
+      "name": "first-transfer-referred",
+      "uuidRecommender": "5467ea4d-ccee-4f63-8131-2b2bde500c3b",
+      "status": "used",
+      "type": "donation",
+      "transactionCode": null,
+      "institution": "2",
+      "createdAt": "2022-18-12T20:25:31.029Z",
+      "updatedAt": "2022-18-12T20:25:31.029Z",
+      "referred": [
+        {
+          "id": 3,
+          "email": "referido33@test.cl",
+          "recommenderCode": "EYwPyb",
+          "uuid": "df18b700-2608-45cc-a294-9fd9352df37d",
+          "profileComplete": true,
+          "confirmedTransfer": true,
+          "createdAt": "2022-05-12T20:22:41.914Z",
+          "updatedAt": "2022-05-12T20:22:41.914Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "amount": "20000",
+      "origin": "recommender",
+      "name": "first-transfer-referred",
+      "uuidRecommender": "5467ea4d-ccee-4f63-8131-2b2bde500c3b",
+      "status": "used",
+      "type": "donation",
+      "transactionCode": null,
+      "institution": 1,
+      "createdAt": "2022-18-12T20:25:31.029Z",
+      "updatedAt": "2022-18-12T20:25:31.029Z",
+      "referred": [
+        {
+          "id": 3,
+          "email": "referido221@test.cl",
+          "recommenderCode": "EYwPyb",
+          "uuid": "df18b700-2608-45cc-a294-9fd9352df37d",
+          "profileComplete": true,
+          "confirmedTransfer": true,
+          "createdAt": "2022-05-12T20:22:41.914Z",
+          "updatedAt": "2022-05-12T20:22:41.914Z"
+        }
+      ]
+    }
+  ],
+  "gifts": [
+    {
+      "id": 1,
+      "description": "Premio por primera transferencia que realiza tu referido",
+      "amount": 20000,
+      "enabled": true,
+      "name": "first-transfer-referred",
+      "createdAt": "2022-01-13T18:27:28.733Z",
+      "updatedAt": "2022-01-13T18:27:28.733Z"
+    },
+    {
+      "id": 2,
+      "description": "Premio por primera transferencia que realiza tu referido",
+      "amount": 25000,
+      "enabled": false,
+      "name": "first-transfer-referred",
+      "createdAt": "2022-01-13T18:27:57.324Z",
+      "updatedAt": "2022-01-13T18:28:17.326Z"
+    }
+  ],
+  "institutions": [
+    {
+      "id": 1,
+      "name": "Fundación las rosas",
+      "description": "Es una institución católica de beneficencia sin fines de lucro, cuya misión desde 1967 es “acoger, alimentar, acompañar en la salud y en el encuentro con el Señor, a personas mayores pobres y desvalidas, manteniéndolas integradas a la familia y a la sociedad en forma digna y activa.",
+      "subtitle": "Construimos una vejez digna",
+      "createdAt": "2022-01-12T20:23:17.676Z",
+      "updatedAt": "2022-01-12T20:23:17.676Z"
+    },
+    {
+      "id": 2,
+      "name": "Coaniquem",
+      "subtitle": "Todo por el niño quemado",
+      "description": "La Corporación de Ayuda al Niño Quemado es una institución privada de beneficencia chilena sin fines de lucro creada el 19 de abril de 1979. Su misión es rehabilitar en forma integral y gratuita a niños y jóvenes que hayan sufrido quemaduras",
+      "createdAt": "2022-01-12T20:23:38.330Z",
+      "updatedAt": "2022-01-12T20:23:38.330Z"
+    },
+    {
+      "id": 3,
+      "name": "Fundación Futbol Más",
+      "subtitle": "Transformando vidas a través del futbol",
+      "description": "Desde la apertura del primer hogar en 1967, nuestra institución ha trabajado por seguir cumpliendo la misión de acoger a las personas mayores más pobres del país, entregándoles amor, cariño y los cuidados necesarios para que vivan su vejez con la dignidad que todos merecemos.",
+      "createdAt": "2022-01-12T20:23:38.330Z",
+      "updatedAt": "2022-01-12T20:23:38.330Z"
+    }
+  ]
+}
